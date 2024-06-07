@@ -12,5 +12,7 @@ console.log(newSuperhero)
 // when we print, by getting superhero, we expect batman printed
 // but since the object has been called and value we'll still get superman printed
 // not the value initiated in index page
+// if you require the same module multiple times, 
+// Node.js will not execute the module's code again; instead, it will return the cached exports.
 
 console.log(superhero.get_name_city())

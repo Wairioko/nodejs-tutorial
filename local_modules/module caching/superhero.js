@@ -9,7 +9,7 @@ class SuperHero{
  }
 
  set_name_city(name, city){
-    this.name = name;
+    this.name = name
     this.city = city;
  }
 
