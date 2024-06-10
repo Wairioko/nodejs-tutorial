@@ -21,6 +21,9 @@ writeable_stream.on("finish", () => {
 const gzip = zip.createGzip();
 
 // an example of chaining by the pipe function
+// we move from readable stream, a transform by zipping
+// then finally writing inside the zipped file
+
 readable_stream
     .pipe(gzip)
     .pipe(fs.createWriteStream("C:\\Users\\HP\\nodejs tutorial\\builtin modules\\fs_module\\file.txt.gz"))
