@@ -19,6 +19,18 @@ file_system.readFile("C:\\Users\\HP\\nodejs tutorial\\builtin modules\\fs_module
 
     }
 );
+
+
 // second will be printed after first and not the file contents 
 // a display of async nature of node js
 console.log("second")
+
+
+// write contents to file
+file_system.writeFileSync("C:\\Users\\HP\\nodejs tutorial\\builtin modules\\fs_module\\file.txt",
+     "Niaje Munga"
+    );
+
+    console.log(read_text);
+
+console.log("third");
