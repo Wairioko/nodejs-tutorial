@@ -14,6 +14,8 @@ class PizzaShop extends EventEmitter {
     displayOrderNum() {
         console.log(`Current order number is ${this.orderNumber}`);
     }
+
+
 }
 
 module.exports = PizzaShop;
