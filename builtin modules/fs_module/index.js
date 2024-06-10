@@ -10,7 +10,7 @@ console.log(read_text);
 console.log("first");
 // code to read file, an error led callback on display
 // a display of the async function in node js
-file_system.readFile("C:\\Users\\HP\\nodejs tutorial\\builtin modules\\fs_module\\file.txt", (error, data) => {
+file_system.readFileSync("C:\\Users\\HP\\nodejs tutorial\\builtin modules\\fs_module\\file.txt", (error, data) => {
     if(error){
         console.log(error)
     }else{
