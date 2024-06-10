@@ -26,6 +26,9 @@ const server = http.createServer((req, res) => {
     }
     const batman_convert = JSON.stringify(batman)
     res.end(batman_convert);
+
+    // sending html content
+    
 })
 
 var port_number = 9000
