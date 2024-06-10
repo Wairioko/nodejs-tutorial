@@ -1,1 +1,1 @@
-this is my promise
+this is some promise
