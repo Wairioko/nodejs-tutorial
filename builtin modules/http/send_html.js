@@ -1,11 +1,12 @@
 // import http and fs
 const http = require("node:http");
-const fs = require("node:fs")
+const fs = require("node:fs") 
 
 
 
 const server = http.createServer(
     (req, res) => {
+        
         res.writeHead(200, {
             "contentType":"application/html"}
         );
