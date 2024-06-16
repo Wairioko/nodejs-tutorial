@@ -1,6 +1,6 @@
 const fs = require("node:fs");
 
-// IO queue callbacks are polled and executed after microtask queues
+// IO queue callbacks are executed after microtask queues
 // and timer queue callbacks
 
 fs.readFile(__filename, () => {

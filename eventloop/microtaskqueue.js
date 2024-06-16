@@ -31,3 +31,6 @@ Promise.resolve().then(() => {
     Promise.resolve().then(() => console.log("inner promise"));
 });
 Promise.resolve().then(() => console.log("promise3"));
+
+
+
